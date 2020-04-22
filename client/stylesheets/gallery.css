@@ -2,6 +2,10 @@ body {
   margin: 40px;
 }
 
+div {
+  height: auto;
+}
+
 .container {
   display: grid;
   grid-gap: 5px;
@@ -17,6 +21,7 @@ body {
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
+    height: auto;
 }
 
 .a {
@@ -30,7 +35,7 @@ body {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-template-rows: repeat(2, 100px);
+  grid-template-rows: repeat(2, 200px);
 }
 
 .c {
@@ -45,6 +50,10 @@ button {
   padding: 2px 6px 2px 6px;
   border-radius: 10px;
   border: 1px solid #CCCCCC;
+}
+
+input {
+  font-size: 18px;
 }
 
 #lead-photo {
